@@ -1,0 +1,87 @@
+// VARIAVEIS
+$main-color: #5B2A00;
+$second-color: #CB7721;
+$third-color: #FF9B2D;
+$impact-color: #FFFAE0;
+$alter_impact-color: #FFDD72;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    header {
+
+
+        img {
+            margin-right: 25px;
+            width: 72px;
+            height: 72px;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            li {
+
+                .nav-link {
+                    color: #5B2A00;
+                    font: bold;
+                }
+
+                .nav-link.active {
+                    background-color: $third-color;
+                }
+            }
+        }
+    }
+}
+
+.content {
+
+    .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+    }
+
+    .carousel-item {
+        height: 70vh;
+
+
+        img {
+            height: 100%;
+        }
+    }
+
+    #custom-cards {
+
+        .pb-2 {
+            color: $third-color;
+        }
+
+        .fw-bold {
+            color: $impact-color;
+        }
+    }
+
+    .btn-primary{
+        background-color: $third-color;
+        border: none;
+    }
+
+    .btn-primary:hover{
+        background-color: $main-color;
+    }
+}

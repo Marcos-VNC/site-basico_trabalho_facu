@@ -1,0 +1,24 @@
+.content {
+  margin-bottom: 13rem;
+}
+.content .container .bootom-div {
+  margin-bottom: 10px;
+}
+.content .container form {
+  margin-bottom: 50px;
+}
+.content .container form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border-color: #FF9B2D;
+}
+.content .container form select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border-color: #FF9B2D;
+}
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}/*# sourceMappingURL=evento.css.map */

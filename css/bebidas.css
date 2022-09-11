@@ -1,0 +1,23 @@
+.content .container .btn-outline-secondary {
+  color: #CB7721;
+  border-color: #CB7721;
+}
+.content .container .btn-outline-secondary:hover {
+  color: #FFFAE0;
+  background-color: #5B2A00;
+}
+.content .container .card-text {
+  color: #5B2A00 !important;
+  font-size: 22px;
+}
+.content .container .text-muted {
+  color: #CB7721 !important;
+  font-size: 18 px;
+}
+.content .toast-body {
+  color: #5B2A00;
+}
+.content .me-auto {
+  font-size: 18px;
+  color: #FF9B2D;
+}/*# sourceMappingURL=bebidas.css.map */
